@@ -46,9 +46,9 @@ An automated whiteboard cleaning system developed using an **RF remote, DC gear 
 
 ## 📚 Documentation
 
-[Read Project Overview](docs/project-overview.md)
-
-## 📋 Technical Specifications
+- 📄 [Patent Complete Specification – Form 2 (PDF)](Form%202.pdf)
+- 📘 [Project Overview](docs/project-overview.md)
+- 📐 [Technical Drawing](Drawing.pdf)
 
 | Specification | Details |
 |---|---|
