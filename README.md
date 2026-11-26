@@ -1,100 +1,76 @@
 # Automatic Whiteboard Cleaning System
 
-### Using RF Remote and Relay Logic
+An automated whiteboard cleaning system developed using an **RF remote, DC gear motor, relay logic, and limit switches**. The system reduces manual effort by automatically moving an eraser across the whiteboard.
 
-**Developed by: Jasmeet Singh**
-
-## About the Project
-
-The Automatic Whiteboard Cleaning System is a hardware-based engineering innovation designed to clean whiteboards automatically.
-
-It uses an RF remote, DC gear motor, relay logic and limit switches to move an eraser pad across the whiteboard.
-
-The system works without Arduino, microcontrollers or software programming.
-
-## Project Details
+## 👨‍💻 Project Details
 
 - **Project Creator:** Jasmeet Singh
 - **Institution:** Chandigarh University
-- **Project Mentor:** Dr. Manish Sharma
+- **Mentor:** Dr. Manish Sharma
 - **Project Type:** Hardware Innovation
 - **Patent Applicant:** Chandigarh University
 
-## Features
+## 📸 Project Prototype
 
-- Wireless control using an RF remote.
-- Automatic whiteboard cleaning.
-- DC gear motor-based movement.
-- Automatic forward and reverse motion.
-- Limit switches for boundary detection.
-- Simple electromechanical control system.
-- 12V DC power supply.
+![Automatic Whiteboard Cleaner Prototype](images/prototype.jpg)
 
-## Hardware Components
+## ⚙️ Key Features
 
-| Component | Purpose |
+- Wireless operation using an RF remote.
+- Automatic movement of the eraser.
+- Forward and reverse motor control using relay logic.
+- Limit switches for movement control.
+- Hardware-based operation without a microcontroller.
+
+## 🔧 Components Used
+
+- 433 MHz RF Remote
+- DC Gear Motor
+- Dual Relay Module
+- SPDT Limit Switches
+- 12V DC Power Supply
+- Timing Belt and Pulleys
+- Eraser Assembly
+
+## 🔄 Working Principle
+
+1. The user activates the system using the RF remote.
+2. The DC gear motor starts moving the eraser.
+3. Relay logic controls the motor's direction.
+4. Limit switches detect the ends of the whiteboard.
+5. The motor reverses its direction and completes the cleaning movement.
+
+## 📐 System Drawing
+
+[View Project Drawing (PDF)](Drawing.pdf)
+
+## 📚 Documentation
+
+[Read Project Overview](docs/project-overview.md)
+
+## 📋 Technical Specifications
+
+| Specification | Details |
 |---|---|
-| RF Remote and Receiver | Wireless control |
-| DC Gear Motor | Moves the eraser |
-| Dual Relay Module | Controls motor direction |
-| Limit Switches | Detects boundaries |
-| Belt and Pulley | Provides linear movement |
-| Eraser Pad | Cleans the whiteboard |
-| 12V DC Adapter | Power supply |
+| Control System | RF Remote |
+| RF Frequency | 433 MHz |
+| Motor | DC Gear Motor |
+| Motor Control | Relay Logic |
+| Movement Detection | Limit Switches |
+| Power Supply | 12V DC, 2A |
 
-## Working Principle
+## 🚀 Future Scope
 
-1. The user presses the RF remote button.
-2. The motor starts moving the eraser pad.
-3. The eraser travels across the whiteboard.
-4. A limit switch detects the end position.
-5. Relay logic reverses the motor direction.
-6. The eraser returns to its starting position.
-7. The system stops automatically.
+- Improved mechanical design.
+- Better cleaning efficiency.
+- Enhanced wireless control.
+- Further automation features.
 
-## System Diagram
+## 🙏 Acknowledgement
 
-![Automatic Whiteboard Cleaning System](images/system-diagram.png)
-
-## Project Images
-
-![Project Prototype](images/prototype.jpg)
-
-## Technical Specifications
-
-- RF Frequency: 433 MHz
-- Power Supply: 12V DC, 2A
-- Motor: DC Gear Motor
-- Control: Dual Relay H-Bridge
-- Limit Switch: SPDT
-- Movement: Belt and Pulley Mechanism
-- Programming: Not Required
-
-## Patent Information
-
-- **Invention:** Automatic Whiteboard Cleaning System Using RF Remote and Relay Logic
-- **Applicant:** Chandigarh University
-- **Specification Date:** 22 November 2025
-
-## Project Documentation
-
-[View Project Overview](docs/project-overview.md)
-
-## Future Scope
-
-- Improved cleaning mechanism.
-- Compatibility with different whiteboard sizes.
-- Better mechanical stability.
-- Improved power efficiency.
-
-## Acknowledgement
-
-Developed by **Jasmeet Singh** at Chandigarh University under the mentorship of **Dr. Manish Sharma**.
+Developed by **Jasmeet Singh** at Chandigarh University under the guidance of **Dr. Manish Sharma**.
 
 ---
 
-<p align="center">
-  **Jasmeet Singh**
-  
-  Engineering Innovation | Automation | Problem Solving
-</p>
+**Jasmeet Singh**  
+[GitHub Profile](https://github.com/Jasmeet-07)
