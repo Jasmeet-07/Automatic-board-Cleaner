@@ -1,193 +1,100 @@
-# 🤖 Automatic Whiteboard Cleaning System Using RF Remote and Relay Logic
+# Automatic Whiteboard Cleaning System
 
-<p align="center">
-  <strong>A Hardware-Based Automation Innovation | Patent Project</strong>
-</p>
+### Using RF Remote and Relay Logic
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Project-Hardware%20Innovation-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Control-RF%20Remote-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Automation-Relay%20Logic-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Programming-Not%20Required-purple?style=for-the-badge" />
-</p>
+**Developed by: Jasmeet Singh**
 
----
+## About the Project
 
-## 📌 Project Overview
+The Automatic Whiteboard Cleaning System is a hardware-based engineering innovation designed to clean whiteboards automatically.
 
-The **Automatic Whiteboard Cleaning System Using RF Remote and Relay Logic** is an electromechanical innovation designed to automate whiteboard cleaning in classrooms, educational institutions, offices, and conference halls.
+It uses an RF remote, DC gear motor, relay logic and limit switches to move an eraser pad across the whiteboard.
 
-The system uses wireless RF remote control, DC gear motors, relay-based motor control, and mechanical limit switches to perform automatic whiteboard cleaning without requiring Arduino, microcontrollers, or software programming.
+The system works without Arduino, microcontrollers or software programming.
 
-The primary objective is to reduce manual effort, save time, and provide an efficient and cost-effective whiteboard cleaning solution.
+## Project Details
 
-## 🖼️ Project Demonstration
+- **Project Creator:** Jasmeet Singh
+- **Institution:** Chandigarh University
+- **Project Mentor:** Dr. Manish Sharma
+- **Project Type:** Hardware Innovation
+- **Patent Applicant:** Chandigarh University
 
-<!-- Add your actual prototype photograph here -->
+## Features
 
-<p align="center">
-  <img src="images/prototype.jpg" width="80%" alt="Automatic Whiteboard Cleaning System Prototype"/>
-</p>
+- Wireless control using an RF remote.
+- Automatic whiteboard cleaning.
+- DC gear motor-based movement.
+- Automatic forward and reverse motion.
+- Limit switches for boundary detection.
+- Simple electromechanical control system.
+- 12V DC power supply.
 
-*Automatic Whiteboard Cleaning System – Prototype*
+## Hardware Components
 
-## ✨ Key Features
-
-- 📡 Wireless operation using a 433 MHz RF remote.
-- ⚙️ Automatic motorized cleaning mechanism.
-- 🔄 Forward and reverse motor control using dual-relay H-bridge.
-- 🎯 Boundary detection using SPDT limit switches.
-- 🛠️ Linear movement using a belt and pulley mechanism.
-- 🔋 12V DC power supply.
-- 💻 No Arduino, microcontroller, or software programming required.
-- 🏫 Designed for educational and professional environments.
-
-## 🔧 Hardware Components
-
-| Component | Function |
+| Component | Purpose |
 |---|---|
-| RF Remote & Receiver | Wireless activation |
-| DC Gear Motor | Drives the cleaning mechanism |
+| RF Remote and Receiver | Wireless control |
+| DC Gear Motor | Moves the eraser |
 | Dual Relay Module | Controls motor direction |
-| SPDT Limit Switches | Detects movement boundaries |
-| Timing Belt & Pulleys | Enables linear movement |
+| Limit Switches | Detects boundaries |
+| Belt and Pulley | Provides linear movement |
 | Eraser Pad | Cleans the whiteboard |
-| 12V DC Adapter | Supplies electrical power |
-| PVC / Aluminium Frame | Supports the mechanical assembly |
+| 12V DC Adapter | Power supply |
 
-## ⚙️ Working Principle
+## Working Principle
 
-The system operates through an electromechanical control mechanism.
+1. The user presses the RF remote button.
+2. The motor starts moving the eraser pad.
+3. The eraser travels across the whiteboard.
+4. A limit switch detects the end position.
+5. Relay logic reverses the motor direction.
+6. The eraser returns to its starting position.
+7. The system stops automatically.
 
-1. **RF Activation:** The user presses the RF remote button to activate the system.
-2. **Motor Movement:** The DC gear motor drives the eraser assembly along the whiteboard.
-3. **Boundary Detection:** A limit switch detects when the eraser reaches the end of its movement.
-4. **Automatic Reversal:** Relay logic reverses the motor direction through the H-bridge arrangement.
-5. **Return Movement:** The eraser travels back towards its original position.
-6. **Cycle Completion:** The second limit switch activates and stops the motor.
+## System Diagram
 
-This process enables automatic cleaning without continuous manual intervention.
+![Automatic Whiteboard Cleaning System](images/system-diagram.png)
 
-## 🔌 Technical Specifications
+## Project Images
 
-| Parameter | Specification |
-|---|---|
-| RF Frequency | 433 MHz |
-| Power Supply | 12V DC, 2A |
-| Motor Control | Dual Relay H-Bridge |
-| Motor Type | DC Gear Motor |
-| Limit Switch | SPDT Mechanical |
-| Movement Mechanism | Timing Belt and Pulley |
-| Cleaning Material | Felt / Rubber |
-| Control System | Electromechanical Relay Logic |
-| Microcontroller | Not Required |
-| Software Programming | Not Required |
+![Project Prototype](images/prototype.jpg)
 
-## 🏗️ System Architecture
+## Technical Specifications
 
-```text
-       RF REMOTE CONTROL
-               |
-               v
-        RF RECEIVER MODULE
-               |
-               v
-        RELAY CONTROL LOGIC
-               |
-               v
-        DUAL RELAY H-BRIDGE
-               |
-               v
-          DC GEAR MOTOR
-               |
-               v
-       BELT & PULLEY SYSTEM
-               |
-               v
-          ERASER PAD
-               |
-               v
-       WHITEBOARD CLEANING
+- RF Frequency: 433 MHz
+- Power Supply: 12V DC, 2A
+- Motor: DC Gear Motor
+- Control: Dual Relay H-Bridge
+- Limit Switch: SPDT
+- Movement: Belt and Pulley Mechanism
+- Programming: Not Required
 
-     LIMIT SWITCHES
-           |
-           v
-    BOUNDARY DETECTION
-           |
-           v
-    MOTOR DIRECTION CONTROL
-```
+## Patent Information
 
-## 💡 Innovation Highlights
+- **Invention:** Automatic Whiteboard Cleaning System Using RF Remote and Relay Logic
+- **Applicant:** Chandigarh University
+- **Specification Date:** 22 November 2025
 
-The main innovation is the implementation of automatic whiteboard cleaning through a purely electromechanical system.
+## Project Documentation
 
-Unlike solutions that depend on programmable electronic controllers, this invention uses:
+[View Project Overview](docs/project-overview.md)
 
-- RF-based wireless activation.
-- Relay-based motor direction control.
-- Mechanical limit-switch feedback.
-- Automatic movement and reversal.
-- A simplified hardware-based control mechanism.
+## Future Scope
 
-This approach aims to reduce system complexity and maintenance requirements.
+- Improved cleaning mechanism.
+- Compatibility with different whiteboard sizes.
+- Better mechanical stability.
+- Improved power efficiency.
 
-## 🎯 Objectives
+## Acknowledgement
 
-- Develop a low-cost automatic whiteboard cleaning system.
-- Reduce manual whiteboard cleaning effort.
-- Enable wireless operation through RF signals.
-- Provide automatic motor direction control.
-- Ensure simple installation and maintenance.
-- Improve classroom and institutional efficiency.
-
-## 🌍 Applications
-
-- Schools and colleges.
-- Universities and educational institutions.
-- Corporate meeting rooms.
-- Coaching institutes.
-- Conference halls.
-- Training and presentation rooms.
-
-## 🚀 Future Scope
-
-- Integration with different whiteboard sizes.
-- Improved mechanical stability and cleaning coverage.
-- Enhanced cleaning-pad design.
-- Better power efficiency.
-- Commercial deployment in educational institutions.
-
-## 📄 Patent Information
-
-| Field | Details |
-|---|---|
-| Invention Title | Automatic Whiteboard Cleaning System Using RF Remote and Relay Logic |
-| Applicant | Chandigarh University |
-| Document | Form 2 – Complete Specification |
-| Specification Date | 22 November 2025 |
-| Project Mentor | Dr. Manish Sharma |
-
-*Refer to the official patent records for verified inventorship, application status, and ownership details.*
-
-## 👨‍💻 Project Credits
-
-**Institution:** Chandigarh University
-
-**Project Mentor:** Dr. Manish Sharma
-
-**Project:** Automatic Whiteboard Cleaning System Using RF Remote and Relay Logic
-
-## ⭐ Acknowledgement
-
-This project represents an effort towards practical engineering innovation by applying electromechanical automation to solve a common problem in educational environments.
+Developed by **Jasmeet Singh** at Chandigarh University under the mentorship of **Dr. Manish Sharma**.
 
 ---
 
 <p align="center">
-  <strong>Innovation through Engineering | Automation through Simplicity</strong>
-</p>
-
-<p align="center">
-  Made with ❤️ at Chandigarh University
+  **Jasmeet Singh**
+  
+  Engineering Innovation | Automation | Problem Solving
 </p>
